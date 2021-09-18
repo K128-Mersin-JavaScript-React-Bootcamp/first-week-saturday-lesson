@@ -1,17 +1,22 @@
-var a = 2;
-a = "Zafer";
-a = true;
-a = { name: "Zafer" }
-a = [1,2,3,4]
-a.push(5)
-a.push(true)
-console.log(a);
 
-/*
-let b = 3;
-const c = 4;
-*/
-/*
-Java C#
-int number asdas
-*/
+function sayHello() {
+    console.log("Hello");
+}
+
+const sayHello2 = function () {
+    console.log("Hello2");
+}
+
+// Lambda expressions
+const sayHello3 = () => console.log("Hello3");
+
+// IIFE
+(function(){ console.log("Hello4")})();
+
+function hello1 (){
+    var myName = "Zafer";
+}
+
+
+console.log(global);
+
