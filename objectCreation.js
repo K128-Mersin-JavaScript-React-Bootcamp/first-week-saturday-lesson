@@ -70,4 +70,6 @@ class Square extends Shape {
 
 const mySquare = new Square(100);
 
-console.log(Shape.getName());
+const myTable = [[1,2], [3,4], [5,6]];
+
+console.table(myTable);

@@ -1,4 +1,4 @@
-
+const destructring = require('./destructring');
 function sayHello() {
     console.log("Hello");
 }
@@ -20,3 +20,5 @@ function hello1 (){
 
 console.log(global);
 
+
+destructring.
